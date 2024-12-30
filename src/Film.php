@@ -84,12 +84,12 @@ class Film
 
     public function __toString()
     {
-        return "id :" . $this->id .
-            ", titre :" . $this->titre .
-            ", genre :" . $this->genre .
-            ", duree :" . $this->duree .
-            ", date_sortie :" . $this->date_sortie .
-            ", date_sortie :" . $this->realisation .
-            ", distribution :" . $this->distribution;
+        return "id :" . $this->id ."<br>".
+            "Titre :" . $this->titre ."<br>".
+            "Genre :" . $this->genre ."<br>".
+            "Duree :" . $this->duree ."<br>".
+            "Date_sortie :" . $this->date_sortie ."<br>".
+            "Date_sortie :" . $this->realisation ."<br>".
+            "Distribution :" . $this->distribution;
     }
 }

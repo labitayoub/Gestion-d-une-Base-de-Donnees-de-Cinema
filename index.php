@@ -10,7 +10,7 @@ $Film1 = new Film(id :1,titre :"ayoub",genre :"action",duree :'1:00 H', date_sor
 // $Film1->titre = "hassan";
 
 
-$Film1->setTitre(titre:'hassan');
+$Film1->setTitre(titre:'aliens');
 
 
 echo $Film1->__Tostring();
