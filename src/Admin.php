@@ -11,7 +11,7 @@ public function __construct($nom,$email, $password) {
   
     $this->nom = $nom;
     $this->email = $email;
-    $this->password = $password;
+    $this->password = password_hash($password, PASSWORD_BCRYPT);
    
 }
 }

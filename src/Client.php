@@ -12,7 +12,7 @@ class Client{
         $this->nom = $nom;
         $this->age = $age;
         $this->email = $email;
-        $this->password = $password;
+        $this->password = password_hash($password, PASSWORD_BCRYPT);
     }
 
 }
